@@ -7,11 +7,19 @@ const scorevalue = 100.3
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
-const id = symbol('123')
-const anotherId = symbol('123')
+const id = Symbol('123')
+const anotherId = Symbol('123')
 console.log(id === anotherId)
 
 
 //Reference(non primitive)
 
 //Array,object,Functions
+const heros = ["chandani", "Msd" "virat"];
+let myobj={
+    Name: "Chandani"
+    Age: 22
+}
+const myFunction= function(){
+    console.log("Hello JS");
+}
